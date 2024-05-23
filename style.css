@@ -1,0 +1,418 @@
+*
+{
+margin: 0; padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: "Literata", serif;
+    font-size: 25px;
+}
+
+
+.main{
+    background-image: url('./img/main-bg.png');
+}
+
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+.title{
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.info{
+    display: flex;
+}
+
+.info-left{
+    margin-right: 87px;
+    margin-top: 41px;
+}
+
+.img{
+    font-size: 42px;
+}
+
+
+.me{
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.contact-group{
+    display: flex;
+}
+
+.contact-link{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 400;
+}
+.logo-img{
+    
+    max-width: 200px;
+    max-height:250px;
+}
+
+.info-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.software-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.software-img{
+    max-width: 44px;
+    max-height: 42px;
+}
+
+.carier-group{
+    display: flex;
+}
+.main1{
+    background-image:url(img/Component\ 1\ \(1\).png)
+}
+
+.mini{
+    margin-top: 20px;
+}
+
+
+.appartment-info{
+    display: flex;
+}
+
+
+.appartment2-img{
+    max-width: 625px; 
+}
+
+
+
+.characters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.appartment-row{
+    display: flex;
+    margin-top: 22px;
+}
+.showcase-info{
+    display: flex;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.showcase-row{
+    display: flex; 
+    margin-top: 25px;
+}
+
+.color-white{
+    color: white;
+}
+
+@media(max-width: 768px){
+body{background-color:#B1B1B1;}
+.info-left{margin-right: 10px;
+margin-top: 5px;}
+.info-top{
+    font-size: 19px;
+}
+.title{
+    font-size: 22px;
+}
+.software-item{
+    font-size: 19px;
+}
+.education{
+    font-size: 19px;
+}
+.carier{
+    font-size: 19px;
+}
+.header{
+    font-size: 19px;
+}
+.characters{
+    font-size: 19px;
+}
+.appartment2-img{
+    max-width: 300px;
+}
+.color-white{
+    font-size: 40px;
+}
+}
+
+@media(max-width: 1024px){
+    body{background-color:#B1B1B1;}
+    .info-left{margin-right: 10px;
+    margin-top: 5px;}
+    .info-top{
+        font-size: 19px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .software-item{
+        font-size: 19px;
+    }
+    .education{
+        font-size: 19px;
+    }
+    .carier{
+        font-size: 19px;
+    }
+    .header{
+        font-size: 19px;
+    }
+    .characters{
+        font-size: 19px;
+    }
+    .appartment2-img{
+        max-width: 300px;
+    }
+    .color-white{
+        font-size: 40px;
+    }
+    }
+
+    @media(max-width: 425px){
+        body{background-color:#B1B1B1;}
+        .info-left{margin-right: 6px;
+        margin-top: 3px;}
+
+        .logo-group{
+            margin-bottom: 25px;
+        }
+        .contact-link{
+            font-size: 8px;
+        }
+        .contact-group{
+            font-size: 8px;
+        }
+        .contacts{
+            font-size: 10px;
+        }
+        .info-top{
+            font-size: 10px;
+            max-height: 300px;
+        }
+        .title{
+            font-size: 10px;
+        }
+        .software-item{
+            font-size: 10px;
+        }
+        .software-img{
+            max-width: 20px;
+            max-height: 20px;
+        }
+        .me{
+            max-width: 200px;
+        }
+        .desc{
+            font-size: 15px;
+        }
+        .contact-link{
+            font-size: 18px;
+        }
+        .contact-group{
+            font-size: 18px;
+        }
+        .education{
+            font-size: 10px;
+        }
+        .carier{
+            font-size: 10px;
+        }
+        .header{
+            font-size: 5px;
+        }
+        .characters{
+            font-size: 10px;
+            color: black;
+        }
+        .character{
+            font-size: 10px;
+            color: black;
+        }
+
+        .appartment2-img{
+            max-width: 150px;
+        }
+        .color-white{
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        }
+        @media(max-width: 375px){
+            body{background-color:#B1B1B1;}
+            .info-left{margin-right: 6px;
+            margin-top: 3px;}
+    
+            .logo-group{
+                margin-bottom: 25px;
+            }
+            .contact-link{
+                font-size: 10px;
+            }
+            .contact-group{
+                font-size: 10px;
+            }
+            .contacts{
+                font-size: 10px;
+            }
+            .info-top{
+                font-size: 10px;
+                max-height: 300px;
+            }
+            .title{
+                font-size: 15px;
+            }
+            .software-item{
+                font-size: 10px;
+            }
+            .software-img{
+                max-width: 20px;
+                max-height: 20px;
+            }
+            .me{
+                max-width: 200px;
+            }
+            .desc{
+                font-size: 15px;
+            }
+            .contact-link{
+                font-size: 10px;
+            }
+            .contact-group{
+                font-size: 10px;
+            }
+            .education{
+                font-size: 10px;
+            }
+            .carier{
+                font-size: 10px;
+            }
+            .header{
+                font-size: 10px;
+                margin-bottom:18px;
+            }
+            .characters{
+                font-size: 10px;
+                color: black;
+            }
+            .character{
+                font-size: 10px;
+                color: black;
+            }
+    
+            .appartment2-img{
+                max-width: 150px;
+            }
+            .color-white{
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+            }
+            @media(max-width: 320px){
+                body{background-color:#B1B1B1;}
+                .info-left{margin-right: 6px;
+                margin-top: 3px;}
+                .header{
+                    margin-bottom: 25px;
+                }
+        
+                .logo-group{
+                    margin-bottom: 30px;
+                }
+                .contact-link{
+                    font-size: 10px;
+                }
+                .contact-group{
+                    font-size: 10px;
+                }
+                .contacts{
+                    font-size: 13px;
+                }
+                .info-top{
+                    font-size: 7px;
+                    max-height: 300px;
+                }
+                .title{
+                    font-size: 12px;
+                }
+                .software-item{
+                    font-size: 7px;
+                }
+                .software-img{
+                    max-width: 20px;
+                    max-height: 20px;
+                }
+                .me{
+                    max-width: 100px;
+                }
+                .desc{
+                    font-size: 12px;
+                }
+                .contact-link{
+                    font-size: 10px;
+                }
+                .contact-group{
+                    font-size: 10px;
+                }
+                .education{
+                    font-size: 7px;
+                }
+                .carier{
+                    font-size: 7px;
+                }
+                .header{
+                    font-size: 10px;
+                    margin: bottom 25px;
+                }
+                .characters{
+                    font-size: 10px;
+                    color: black;
+                }
+                .character{
+                    font-size: 10px;
+                    color: black;
+                }
+        
+                .appartment2-img{
+                    max-width: 100px;
+                }
+                .color-white{
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                }
+                }
+
+/* font-family: "Italiana", sans-serif; */
